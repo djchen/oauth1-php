@@ -1,0 +1,23 @@
+{
+    "name": "djchen/oauth1-php",
+    "type": "library",
+    "description": "A simple and easy to use OAuth1 library for PHP",
+    "keywords": ["oauth1", "oauth", "OAuth"],
+    "homepage": "https://github.com/djchen/oauth1-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dan Chen",
+            "email": "dan@djc.me"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "djchen": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}

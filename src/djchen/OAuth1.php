@@ -211,7 +211,7 @@ class OAuth1
         }
     }
 
-    private function request($method, $url, $headers, $paramsOrBody, $oauth)
+    protected function request($method, $url, $headers, $paramsOrBody, $oauth)
     {
         $method = strtolower($method);
         if (!is_array($headers)) {

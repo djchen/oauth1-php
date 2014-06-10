@@ -229,7 +229,7 @@ class Unirest
         $response = curl_exec($ch);
         $error    = curl_error($ch);
         if ($error) {
-            throw new Exception($error);
+            throw new \Exception($error);
         }
         
         // Split the full response in its headers and body

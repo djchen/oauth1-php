@@ -52,7 +52,7 @@ class OAuth1
             }
         }
         $restClient = $this->restClient = new Unirest();
-        $restClient->defaultHeader("user-agent", "djchen-oauth1/0.1");
+        $restClient->defaultHeader("user-agent", "oauth1-php/0.1");
         $this->sslVerifyPeer($this->config['sslVerifyPeer']);
         $this->setTimeout($this->config['timeout']);
     }
